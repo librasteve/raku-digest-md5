@@ -2,7 +2,7 @@
 # Digest::MD5 Perl6 module
 #
 
-class Digest::MD5:auth<cosimo>:ver<0.05> {
+class Digest::MD5:auth<librasteve>:ver<0.06> {
     sub prefix:<¬>(\x)       {   (+^ x) % 2**32 }
     sub infix:<⊞>(\x, \y)    {  (x + y) % 2**32 }
     sub infix:«<<<»(\x, \n)  { (x +< n) % 2**32 +| (x +> (32-n)) }
