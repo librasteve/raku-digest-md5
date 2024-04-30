@@ -1,8 +1,8 @@
 {
-    "perl"        : "6.*",
+    "perl"        : "6.c",
     "name"        : "Digest::MD5",
-    "version"     : "0.05",
-    "description" : "Perl6 port of Perl5' Digest::MD5 module",
+    "version"     : "0.06",
+    "description" : "Raku port of Perl5' Digest::MD5 module",
     "build-depends" : [ ],
     "test-depends" : [
         "Test"
@@ -11,8 +11,9 @@
     "provides" : {
         "Digest::MD5" : "lib/Digest/MD5.pm"
     },
-    "author"      : "Cosimo Streppone",
-    "authority"   : "cosimo",
-    "source-url"  : "git://github.com/cosimo/perl6-digest-md5.git"
+    "authors": [
+        "librasteve"
+    ],
+    "auth": "zef:librasteve",
+    "source-url"  : "git://github.com/librasteve/raku-digest-md5.git"
 }
-
